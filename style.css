@@ -46,5 +46,5 @@ img{
     background-color: rgba(0, 0, 0, 0.8);
   }
   h6.hidden {
-    display: none;
+    visibility: hidden;
   }

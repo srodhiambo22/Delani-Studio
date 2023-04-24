@@ -14,3 +14,10 @@ $(document).ready(function() {
       $(this).find('img').show();
     });
   });
+  $(document).ready(function() {
+    $('.image-container').hover(function() {
+      $(this).find('.image-text').fadeIn(200);
+    }, function() {
+      $(this).find('.image-text').fadeOut(200);
+    });
+  });

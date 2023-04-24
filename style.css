@@ -53,6 +53,7 @@ img{
     padding: 43px;
     opacity: 0;
     transition: opacity 0.2s ease-in-out;
+    border: #ffffff;
   }
   .image-container:hover .image-text {
     opacity: 1;

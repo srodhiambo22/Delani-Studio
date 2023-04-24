@@ -1,6 +1,8 @@
-$(document).ready(function(){
-  $("form").submit(function(){
-    alert("Your message has been received");
+$(document).ready(function() {
+  $('#myForm').submit(function(e) {
+    e.preventDefault();
+    var username = $('#Name').val();
+    alert (username + ' ' + 'we have received your message. Thank you for reaching out to us!');
   });
 });
   $(document).ready(function() {
